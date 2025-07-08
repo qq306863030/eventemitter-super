@@ -1,0 +1,54 @@
+{
+  "name": "eventemitter-super",
+  "version": "1.0.6",
+  "description": "An event emitter/listener tool based on EventEmitter3.",
+  "main": "lib/eventemitter-super.cjs.js",
+  "module": "lib/eventemitter-super.esm.js",
+  "jsnext:main": "lib/eventemitter-super.esm.js",
+  "browser": "lib/eventemitter-super.umd.js",
+  "types": "@types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./@types/index.d.ts",
+      "import": "./lib/eventemitter-super.esm.js",
+      "require": "./lib/eventemitter-super.cjs.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "@types"
+  ],
+  "type": "commonjs",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/roman_123/eventemitter-super.git"
+  },
+  "keywords": [
+    "eventemitter",
+    "eventemitter3",
+    "eventbus",
+    "event"
+  ],
+  "author": "roman_123",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.37.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  }
+}
