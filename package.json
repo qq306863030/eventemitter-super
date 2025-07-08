@@ -1,6 +1,6 @@
 {
   "name": "eventemitter-super",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An event emitter/listener tool based on EventEmitter3.",
   "main": "lib/eventemitter-super.cjs.js",
   "module": "lib/eventemitter-super.esm.js",

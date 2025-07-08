@@ -1,5 +1,5 @@
 # eventemitter-super
- ![QQ](https://img.shields.io/badge/QQ-306863030-green.svg) [![Git](https://img.shields.io/badge/GIT-roman_123-blue.svg)](https://gitee.com/roman_123/css-color-parser/tree/master) [![NPM](https://img.shields.io/badge/NPM-roman_123-blue.svg)](https://www.npmjs.com/package/eventemitter-super)
+ ![QQ](https://img.shields.io/badge/QQ-306863030-green.svg) [![Gitee](https://img.shields.io/badge/Gitee-roman_123-blue.svg)](https://gitee.com/roman_123/eventemitter-super) [![GitHub](https://img.shields.io/badge/GitHub-roman_123-blue.svg)](https://github.com/qq306863030/eventemitter-super) [![NPM](https://img.shields.io/badge/NPM-roman_123-blue.svg)](https://www.npmjs.com/package/eventemitter-super)
 
 > An event emitter/listener tool based on EventEmitter3.一个基于eventemitter3的事件发送监听工具
 
